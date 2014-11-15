@@ -1,0 +1,106 @@
+/*
+######## ##     ## ########     ###    #### ########        ###    ##     ## ##     ## ######## ########  
+     ##  ##     ## ##     ##   ## ##    ##  ##     ##      ## ##   ##     ## ###   ### ##       ##     ## 
+    ##   ##     ## ##     ##  ##   ##   ##  ##     ##     ##   ##  ##     ## #### #### ##       ##     ## 
+   ##    ##     ## ########  ##     ##  ##  ########     ##     ## ######### ## ### ## ######   ##     ## 
+  ##     ##     ## ##     ## #########  ##  ##   ##      ######### ##     ## ##     ## ##       ##     ## 
+ ##      ##     ## ##     ## ##     ##  ##  ##    ##     ##     ## ##     ## ##     ## ##       ##     ## 
+########  #######  ########  ##     ## #### ##     ##    ##     ## ##     ## ##     ## ######## ######## 
+*/
+body{
+    padding-top: 30px;
+}
+
+footer{
+    padding: 2em 0;
+    margin: 3em 0;
+    border-top: 1px solid #ddd;
+    color: #999;
+    text-align: center;
+}
+.tab-pane{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0.8em;
+}
+
+.active gyphicon{
+    color: #000;
+}
+
+.cuscontainer {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  
+
+}
+@media (min-width: 768px) {
+  .cuscontainer {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .cuscontainer {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .cuscontainer {
+    width: 1170px;
+  }
+}
+.cuscontainer-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 0px 30px 0px #000;
+}
+
+.over-color{
+    background-color: #000;
+    color: #fff;
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+.item:nth-child(1) {
+  background: silver;
+}
+.item:nth-child(2) {
+  background: red;
+}
+.item:nth-child(3) {
+  background: orange;
+}
